@@ -10,3 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pyrox0/apworld-test-action@v1.1
+        with:
+          enable_test: "true"
+          enable_fuzz: "true"
+          world: "archipidle"
