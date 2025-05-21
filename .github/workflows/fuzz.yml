@@ -1,5 +1,8 @@
 name: fuzz
 
+on:
+  - push
+
 jobs:
   fuzz:
     runs-on: ubuntu-latest
