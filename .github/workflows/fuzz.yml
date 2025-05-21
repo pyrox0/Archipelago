@@ -13,4 +13,4 @@ jobs:
         with:
           enable_test: "true"
           enable_fuzz: "true"
-          world: "archipidle"
+          world: "ahit"
