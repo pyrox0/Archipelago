@@ -1,0 +1,9 @@
+name: fuzz
+
+jobs:
+  fuzz:
+    runs-on: ubuntu-latest
+    name: Run fuzzer
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pyrox0/apworld-test-action@v1.1
